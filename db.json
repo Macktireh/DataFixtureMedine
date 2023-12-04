@@ -1,0 +1,772 @@
+[
+  {
+    "model": "products.groupcategory",
+    "pk": 1,
+    "fields": {
+      "public_id": "aa144d01bc0448fcb982c7a657f81a6f09b60f3c993a4122839a056445a1c0e8",
+      "created_at": "2023-08-08T19:49:52.125Z",
+      "updated_at": "2023-08-28T00:08:12.449Z",
+      "name": "Electronics",
+      "name_en": "Electronics",
+      "name_fr": "Électronique",
+      "slug": "electronics",
+      "thumbnail": "categories/electronics.png"
+    }
+  },
+  {
+    "model": "products.groupcategory",
+    "pk": 2,
+    "fields": {
+      "public_id": "8988b6c63b2448929c6634d30274174b4e713f417f0343aba8527e2a2508a0cd",
+      "created_at": "2023-08-08T19:53:45.113Z",
+      "updated_at": "2023-08-08T19:53:45.114Z",
+      "name": "Grocery",
+      "name_en": "Grocery",
+      "name_fr": "Épicerie",
+      "slug": "grocery",
+      "thumbnail": "categories/grocery.png"
+    }
+  },
+  {
+    "model": "products.groupcategory",
+    "pk": 3,
+    "fields": {
+      "public_id": "feda892e759144dca498bf1450ef1057b72e2e5fd4a242a5a61347c451ae4721",
+      "created_at": "2023-08-08T20:03:45.605Z",
+      "updated_at": "2023-08-08T20:03:45.605Z",
+      "name": "Fashion Stores",
+      "name_en": "Fashion Stores",
+      "name_fr": "Magasins de Mode",
+      "slug": "fashion-stores",
+      "thumbnail": "categories/fashion-stores.png"
+    }
+  },
+  {
+    "model": "products.groupcategory",
+    "pk": 4,
+    "fields": {
+      "public_id": "7d6dc5e00f7a49a2bb172d024d57d0c3f326a9af0c484970b29a4351aa757c9d",
+      "created_at": "2023-09-05T19:53:45.459Z",
+      "updated_at": "2023-09-05T19:53:45.459Z",
+      "name": "Cars",
+      "name_en": "Cars",
+      "name_fr": "Voitures",
+      "slug": "cars",
+      "thumbnail": "categories/cars.png"
+    }
+  },
+  {
+    "model": "products.groupcategory",
+    "pk": 5,
+    "fields": {
+      "public_id": "4adf933972414407b9d80ae6e5acc5b7d89c04687dcc4185a9bcf5dbdb805e5e",
+      "created_at": "2023-09-05T19:55:33.442Z",
+      "updated_at": "2023-09-05T19:55:33.442Z",
+      "name": "Home & Garden",
+      "name_en": "Home & Garden",
+      "name_fr": "Maison et jardin",
+      "slug": "home-garden",
+      "thumbnail": "categories/home-garden.png"
+    }
+  },
+  {
+    "model": "products.groupcategory",
+    "pk": 6,
+    "fields": {
+      "public_id": "aac2b05f5280407692ed63eac7306ec5853d13fcaa734e989e6c18a8a8de16af",
+      "created_at": "2023-09-05T19:56:43.713Z",
+      "updated_at": "2023-09-05T19:56:43.714Z",
+      "name": "Gifts",
+      "name_en": "Gifts",
+      "name_fr": "Cadeaux",
+      "slug": "gifts",
+      "thumbnail": "categories/gifts.png"
+    }
+  },
+  {
+    "model": "products.groupcategory",
+    "pk": 7,
+    "fields": {
+      "public_id": "93560eee939d4f3f9cd40d70e841e91c7b27e687d0284c4d80ce6bcd68786800",
+      "created_at": "2023-09-05T19:58:18.772Z",
+      "updated_at": "2023-09-05T19:58:18.772Z",
+      "name": "Music",
+      "name_en": "Music",
+      "name_fr": "Musique",
+      "slug": "music",
+      "thumbnail": "categories/music.png"
+    }
+  },
+  {
+    "model": "products.groupcategory",
+    "pk": 8,
+    "fields": {
+      "public_id": "26adbb2f80694446ac5111d82036a97261f02e020d7a4beabead061fad02c471",
+      "created_at": "2023-09-05T19:59:11.357Z",
+      "updated_at": "2023-09-05T19:59:11.357Z",
+      "name": "Health & Beauty",
+      "name_en": "Health & Beauty",
+      "name_fr": "Santé et beauté",
+      "slug": "health-beauty",
+      "thumbnail": "categories/health-beauty.png"
+    }
+  },
+  {
+    "model": "products.groupcategory",
+    "pk": 9,
+    "fields": {
+      "public_id": "55674d4ad14149dbad8bb1bee73721a7e058e7f550e249e3a0995aa6034e8125",
+      "created_at": "2023-09-05T19:59:48.147Z",
+      "updated_at": "2023-09-05T19:59:57.839Z",
+      "name": "Pets",
+      "name_en": "Pets",
+      "name_fr": "Animaux de compagnie",
+      "slug": "pets",
+      "thumbnail": "categories/pets.png"
+    }
+  },
+  {
+    "model": "products.groupcategory",
+    "pk": 10,
+    "fields": {
+      "public_id": "f6bc373f986e4d6abf05577982263e499550155181964aef99f5b43af7cc4b71",
+      "created_at": "2023-09-05T20:00:36.722Z",
+      "updated_at": "2023-09-05T20:00:36.722Z",
+      "name": "Baby Toys",
+      "name_en": "Baby Toys",
+      "name_fr": "Jouets pour bébés",
+      "slug": "baby-toys",
+      "thumbnail": "categories/baby-toys.png"
+    }
+  },
+  {
+    "model": "products.groupcategory",
+    "pk": 11,
+    "fields": {
+      "public_id": "b454546335074e43a99377a31471ec2bed4f9e5d13cd44699e35e7f4ed4894be",
+      "created_at": "2023-09-05T20:01:53.189Z",
+      "updated_at": "2023-09-05T20:01:53.189Z",
+      "name": "Library",
+      "name_en": "Library",
+      "name_fr": "Bibliothèque",
+      "slug": "library",
+      "thumbnail": "categories/library.png"
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 1,
+    "fields": {
+      "public_id": "16b808f263654b6da06f816591c61c82243726c97fc7408e80cb32106c410bb1",
+      "created_at": "2023-08-08T20:12:20.687Z",
+      "updated_at": "2023-08-10T11:24:59.140Z",
+      "name": "Smartphone",
+      "name_en": "Smartphone",
+      "name_fr": "Smartphone",
+      "slug": "smartphone",
+      "thumbnail": "categories/smartphone.png",
+      "group": 1
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 2,
+    "fields": {
+      "public_id": "e2102ee966de4051a237658b6a8f4fe2468b22b0db6e4859b693bd1e9e605aaf",
+      "created_at": "2023-08-08T20:27:30.658Z",
+      "updated_at": "2023-08-08T20:27:30.658Z",
+      "name": "Watch",
+      "name_en": "Watch",
+      "name_fr": "Montre",
+      "slug": "watch",
+      "thumbnail": "categories/watch.png",
+      "group": 1
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 3,
+    "fields": {
+      "public_id": "74e72932f19a4e739dec7b8962d129c3bfb9656a39a7404c8ba6794fca82b0f3",
+      "created_at": "2023-08-08T20:31:44.228Z",
+      "updated_at": "2023-08-08T20:31:44.228Z",
+      "name": "Personal computer",
+      "name_en": "Personal computer",
+      "name_fr": "Ordinateur personnel",
+      "slug": "personal-computer",
+      "thumbnail": "categories/personal-computer.png",
+      "group": 1
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 4,
+    "fields": {
+      "public_id": "0db7b647947f4ce18563efa8d9bec1d35e0f89c3dddf4b39949ffda43a050934",
+      "created_at": "2023-08-08T20:35:55.429Z",
+      "updated_at": "2023-08-08T20:35:55.429Z",
+      "name": "Earphones",
+      "name_en": "Earphones",
+      "name_fr": "Écouteurs",
+      "slug": "earphones",
+      "thumbnail": "categories/earphones.png",
+      "group": 1
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 5,
+    "fields": {
+      "public_id": "4194e5c196254c4094aab279894b234268c582fa918845d98c59a73f9663c5c6",
+      "created_at": "2023-08-08T20:48:41.888Z",
+      "updated_at": "2023-08-08T20:48:41.888Z",
+      "name": "Console Games",
+      "name_en": "Console Games",
+      "name_fr": "Jeux de console",
+      "slug": "console-games",
+      "thumbnail": "categories/console-games.png",
+      "group": 1
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 6,
+    "fields": {
+      "public_id": "af4bbd196745464490d2595e6586fbd2ab50755e00154fbdbc2a45c092a3b5ed",
+      "created_at": "2023-08-10T11:27:01.460Z",
+      "updated_at": "2023-08-10T11:27:01.460Z",
+      "name": "Tablet",
+      "name_en": "Tablet",
+      "name_fr": "Tablette",
+      "slug": "tablet",
+      "thumbnail": "categories/tablet.png",
+      "group": 1
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 7,
+    "fields": {
+      "public_id": "0c4abd64284f4e72ad59ec6b0b1514ac6425f534c84547afbf7cfc17243ef1cc",
+      "created_at": "2023-08-10T11:34:55.172Z",
+      "updated_at": "2023-08-10T11:34:55.172Z",
+      "name": "Children's Clothing",
+      "name_en": "Children's Clothing",
+      "name_fr": "Vêtements pour enfants",
+      "slug": "childrens-clothing",
+      "thumbnail": "categories/childrens-clothing.png",
+      "group": 3
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 8,
+    "fields": {
+      "public_id": "e6b91558cda04b60b955aeacd2c4363f277286940b4a45ef84df4c52100063fa",
+      "created_at": "2023-08-10T11:35:44.208Z",
+      "updated_at": "2023-08-10T11:35:44.208Z",
+      "name": "Women's Clothing",
+      "name_en": "Women's Clothing",
+      "name_fr": "Vêtements pour Femmes",
+      "slug": "womens-clothing",
+      "thumbnail": "categories/womens-clothing.png",
+      "group": 3
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 9,
+    "fields": {
+      "public_id": "c36bf26002b7475f8ed13a38c86df8cfe91b3805541f4dfb8fde84652bdd16a8",
+      "created_at": "2023-08-10T11:36:22.686Z",
+      "updated_at": "2023-08-10T11:36:22.686Z",
+      "name": "Men's Clothing",
+      "name_en": "Men's Clothing",
+      "name_fr": "Vêtements pour Hommes",
+      "slug": "mens-clothing",
+      "thumbnail": "categories/mens-clothing.png",
+      "group": 3
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 10,
+    "fields": {
+      "public_id": "5ef5511953824519b0ac3ed8a4505eb89d46d28ccc724060b95982c0584769bf",
+      "created_at": "2023-08-10T11:38:12.112Z",
+      "updated_at": "2023-08-10T11:38:12.113Z",
+      "name": "Sportswear",
+      "name_en": "Sportswear",
+      "name_fr": "Vêtements de Sport",
+      "slug": "sportswear",
+      "thumbnail": "categories/sportswear.png",
+      "group": 3
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 11,
+    "fields": {
+      "public_id": "2338d77a9ef04091a1c00277c47f8ef3e6d8ead722104fc3a81c067639eb626c",
+      "created_at": "2023-08-10T11:30:33.402Z",
+      "updated_at": "2023-08-10T11:30:33.402Z",
+      "name": "Television TV",
+      "name_en": "Television TV",
+      "name_fr": "Télévision TV",
+      "slug": "television-tv",
+      "thumbnail": "categories/television-tv.png",
+      "group": 1
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 12,
+    "fields": {
+      "public_id": "94660f6ef073446b9954521ff141695ade49503c45d24aa48016069750dfa223",
+      "created_at": "2023-08-10T11:54:47.454Z",
+      "updated_at": "2023-08-10T11:54:47.454Z",
+      "name": "Men's shoes",
+      "name_en": "Men's shoes",
+      "name_fr": "Chaussures pour hommes",
+      "slug": "mens-shoes",
+      "thumbnail": "categories/mens-shoes.png",
+      "group": 3
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 13,
+    "fields": {
+      "public_id": "369bcc96899f4fd28982020898305bdfa53d080515b740e8a67c7723cf4ce87f",
+      "created_at": "2023-08-10T11:58:25.261Z",
+      "updated_at": "2023-08-11T19:13:07.762Z",
+      "name": "Women's shoes",
+      "name_en": "Women's shoes",
+      "name_fr": "Chaussures pour femmes",
+      "slug": "womens-shoes",
+      "thumbnail": "categories/womens-shoes.png",
+      "group": 3
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 14,
+    "fields": {
+      "public_id": "e9082f422a974bcc8ddeaa070b867097886722fa2a17435586fd9c9bd9e8bfde",
+      "created_at": "2023-08-10T12:13:50.443Z",
+      "updated_at": "2023-08-11T19:29:55.191Z",
+      "name": "Fresh products",
+      "name_en": "Fresh products",
+      "name_fr": "Produits frais",
+      "slug": "fresh-products",
+      "thumbnail": "categories/fresh-products.png",
+      "group": 2
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 15,
+    "fields": {
+      "public_id": "fba34f2ebb5b4268aafcbb7761eb9e1afc4bad874eed4d7c9eb763dfee272226",
+      "created_at": "2023-08-10T12:15:21.140Z",
+      "updated_at": "2023-08-11T19:50:08.056Z",
+      "name": "Dry goods",
+      "name_en": "Dry goods",
+      "name_fr": "Produits secs",
+      "slug": "dry-goods",
+      "thumbnail": "categories/dry-goods.png",
+      "group": 2
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 16,
+    "fields": {
+      "public_id": "c2a6117a9cd94544be1af94197529f9208a616222aa44b1f961f343353000068",
+      "created_at": "2023-08-10T12:15:53.771Z",
+      "updated_at": "2023-08-11T19:31:10.468Z",
+      "name": "Spices and Seasonings",
+      "name_en": "Spices and Seasonings",
+      "name_fr": "Épices et assaisonnements",
+      "slug": "spices-and-seasonings",
+      "thumbnail": "categories/spices-and-seasonings.png",
+      "group": 2
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 17,
+    "fields": {
+      "public_id": "d4d1f358515e42b2af8678b52fe6ec5004fd4175ac1d40d8952fce73d0102370",
+      "created_at": "2023-08-10T12:17:01.191Z",
+      "updated_at": "2023-08-11T19:32:06.276Z",
+      "name": "Canned and frozen products",
+      "name_en": "Canned and frozen products",
+      "name_fr": "Produits en conserve et surgelés",
+      "slug": "canned-and-frozen-products",
+      "thumbnail": "categories/canned-and-frozen-products.png",
+      "group": 2
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 18,
+    "fields": {
+      "public_id": "7b47e86df47c48a887ea6d73984f0fa367f6824ad7c0483e97fe6931072087d4",
+      "created_at": "2023-08-10T12:18:28.458Z",
+      "updated_at": "2023-08-11T19:30:47.013Z",
+      "name": "Bakery and Patisserie",
+      "name_en": "Bakery and Patisserie",
+      "name_fr": "Boulangerie et pâtisserie",
+      "slug": "bakery-and-patisserie",
+      "thumbnail": "categories/bakery-and-patisserie.png",
+      "group": 2
+    }
+  },
+  {
+    "model": "products.promotion",
+    "pk": 1,
+    "fields": {
+      "public_id": "8460f26ab1d74aea8c78a268180c71c91b22e52076c74f26b6d6fe136996a315",
+      "created_at": "2023-08-08T21:51:24.258Z",
+      "updated_at": "2023-08-08T21:51:24.258Z",
+      "title": "Black Friday",
+      "discount": 40,
+      "start_date": "2023-08-08T22:00:00Z",
+      "end_date": "2023-08-30T22:00:00Z"
+    }
+  },
+  { "model": "products.color", "pk": 1, "fields": { "name": "#F1F1F1" } },
+  { "model": "products.color", "pk": 2, "fields": { "name": "#333333" } },
+  { "model": "products.color", "pk": 3, "fields": { "name": "#FF4824" } },
+  {
+    "model": "products.product",
+    "pk": 1,
+    "fields": {
+      "public_id": "a6c896804cad4242b1ac4baba8548a1135303bb035864db5b3603252725b5dc0",
+      "created_at": "2023-09-03T18:26:20.179Z",
+      "updated_at": "2023-09-03T19:05:39.860Z",
+      "name": "Apple Iphone 14 Pro Max (128 GB)",
+      "name_en": "Apple Iphone 14 Pro Max (128 GB)",
+      "name_fr": "Apple Iphone 14 Pro Max (128 Go)",
+      "slug": "apple-iphone-14-pro-max-128-gb",
+      "stock": 150,
+      "price": "1109.00",
+      "description": "The iPhone 14 Pro Max is Apple's flagship offering. Featuring a 6.7-inch Super Retina XDR display, it delivers vibrant colors and exceptional contrast. Its ProCapture triple-camera system allows for professional-grade photo and video capture, while the A15 Bionic chip ensures lightning-fast performance. The battery lasts all day, and it supports 5G for ultra-fast connectivity. The iPhone 14 Pro Max is a must-have for those seeking power and versatility in an elegant design.",
+      "description_en": "The iPhone 14 Pro Max is Apple's flagship offering. Featuring a 6.7-inch Super Retina XDR display, it delivers vibrant colors and exceptional contrast. Its ProCapture triple-camera system allows for professional-grade photo and video capture, while the A15 Bionic chip ensures lightning-fast performance. The battery lasts all day, and it supports 5G for ultra-fast connectivity. The iPhone 14 Pro Max is a must-have for those seeking power and versatility in an elegant design.",
+      "description_fr": "L'iPhone 14 Pro Max est le nec plus ultra d'Apple. Doté d'un écran Super Retina XDR de 6,7 pouces, il offre des couleurs vibrantes et un contraste exceptionnel. Son système de triple caméra ProCapture permet de capturer des photos et des vidéos professionnelles, tandis que sa puce A15 Bionic offre des performances incroyablement rapides. La batterie dure toute la journée, et il prend en charge la 5G pour une connectivité ultra-rapide. L'iPhone 14 Pro Max est un choix incontournable pour ceux qui recherchent la puissance et la polyvalence dans un design élégant.",
+      "thumbnail": "products/smartphone/apple-iphone-14-pro-max-128-gb.png",
+      "category": 1,
+      "promotion": null,
+      "color": [2]
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 2,
+    "fields": {
+      "public_id": "832f1661f8074c49868c18f07f10561437154ea4685849b3bc95e87003d63e10",
+      "created_at": "2023-09-03T19:31:50.550Z",
+      "updated_at": "2023-09-03T19:31:50.550Z",
+      "name": "Samsung Galaxy S22 Ultra",
+      "name_en": "Samsung Galaxy S22 Ultra",
+      "name_fr": "Samsung Galaxy S22 Ultra",
+      "slug": "samsung-galaxy-s22-ultra",
+      "stock": 150,
+      "price": "859.00",
+      "description": "Samsung's Galaxy S22 Ultra is a powerhouse. Its massive 6.8-inch Dynamic AMOLED display offers vibrant colors and outstanding image quality. With its Ultra Quad camera system, it's capable of capturing professional-grade photos and videos, and its built-in S Pen adds extra functionality. The Exynos 2200 processor guarantees top-notch performance, and it's 5G compatible. If you're looking for a high-end Android smartphone, look no further than the Galaxy S22 Ultra.",
+      "description_en": "Samsung's Galaxy S22 Ultra is a powerhouse. Its massive 6.8-inch Dynamic AMOLED display offers vibrant colors and outstanding image quality. With its Ultra Quad camera system, it's capable of capturing professional-grade photos and videos, and its built-in S Pen adds extra functionality. The Exynos 2200 processor guarantees top-notch performance, and it's 5G compatible. If you're looking for a high-end Android smartphone, look no further than the Galaxy S22 Ultra.",
+      "description_fr": "Le Galaxy S22 Ultra de Samsung est une bête de puissance. Son immense écran Dynamic AMOLED de 6,8 pouces offre des couleurs éclatantes et une qualité d'image exceptionnelle. Avec sa caméra quad Ultra, il est capable de capturer des photos et des vidéos professionnelles, et son S Pen intégré ajoute une fonctionnalité supplémentaire. Le processeur Exynos 2200 garantit des performances rapides, et il est compatible avec la 5G. Si vous recherchez un smartphone Android haut de gamme, ne cherchez pas plus loin que le Galaxy S22 Ultra.",
+      "thumbnail": "products/smartphone/samsung-galaxy-s22-ultra.png",
+      "category": 1,
+      "promotion": null,
+      "color": [2]
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 3,
+    "fields": {
+      "public_id": "c92ca740ea5f430b9644d73cdb460806de6fddf6d4fb481d9c4069381dc6e1cf",
+      "created_at": "2023-09-03T19:38:20.372Z",
+      "updated_at": "2023-09-03T19:38:20.372Z",
+      "name": "Google Pixel 7 Pro",
+      "name_en": "Google Pixel 7 Pro",
+      "name_fr": "Google Pixel 7 Pro",
+      "slug": "google-pixel-7-pro",
+      "stock": 149,
+      "price": "739.00",
+      "description": "Google's Pixel 7 Pro is the perfect choice for photography enthusiasts. Its primary and ultra-wide cameras deliver exceptional image quality, and the Night mode is stunning. The 6.7-inch OLED display is perfect for content viewing, and it runs on the latest version of Android, ensuring a pure and smooth experience. With Google's Tensor chip, it offers impressive performance for demanding apps and games.",
+      "description_en": "Google's Pixel 7 Pro is the perfect choice for photography enthusiasts. Its primary and ultra-wide cameras deliver exceptional image quality, and the Night mode is stunning. The 6.7-inch OLED display is perfect for content viewing, and it runs on the latest version of Android, ensuring a pure and smooth experience. With Google's Tensor chip, it offers impressive performance for demanding apps and games.",
+      "description_fr": "Le Pixel 7 Pro de Google est le choix parfait pour les amateurs de photographie. Ses caméras principales et ultra grand-angle offrent une qualité d'image exceptionnelle, et le mode Nuit est époustouflant. Son écran OLED de 6,7 pouces est parfait pour la visualisation de contenu, et il fonctionne sur la dernière version d'Android, garantissant une expérience pure et fluide. Avec la puce Tensor de Google, il offre des performances impressionnantes pour les applications et les jeux les plus exigeants.",
+      "thumbnail": "products/smartphone/google-pixel-7-pro.png",
+      "category": 1,
+      "promotion": null,
+      "color": [1, 2]
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 4,
+    "fields": {
+      "public_id": "e16680d638fd4bf28f7facf7e38f832ab63f47d9f2ee498d9d47f5c908f8e06c",
+      "created_at": "2023-09-03T19:41:22.031Z",
+      "updated_at": "2023-09-03T19:41:22.031Z",
+      "name": "Huawei P50 Pro",
+      "name_en": "Huawei P50 Pro",
+      "name_fr": "Huawei P50 Pro",
+      "slug": "huawei-p50-pro",
+      "stock": 150,
+      "price": "728.00",
+      "description": "The Huawei P50 Pro is a flagship smartphone with an exceptional Leica camera. Its 6.6-inch OLED display offers vibrant colors and high resolution. The four Leica cameras, including a periscope camera, capture professional-grade photos and videos, and the image stabilization is outstanding. The Kirin 9000E processor offers top-notch performance, and 5G connectivity ensures fast internet speeds. The Huawei P50 Pro is a solid choice for photography and videography enthusiasts.",
+      "description_en": "The Huawei P50 Pro is a flagship smartphone with an exceptional Leica camera. Its 6.6-inch OLED display offers vibrant colors and high resolution. The four Leica cameras, including a periscope camera, capture professional-grade photos and videos, and the image stabilization is outstanding. The Kirin 9000E processor offers top-notch performance, and 5G connectivity ensures fast internet speeds. The Huawei P50 Pro is a solid choice for photography and videography enthusiasts.",
+      "description_fr": "Le Huawei P50 Pro est un smartphone phare avec une caméra Leica exceptionnelle. Son écran OLED de 6,6 pouces offre des couleurs éclatantes et une résolution élevée. Les quatre caméras Leica, y compris une caméra périscope, capturent des photos et des vidéos de qualité professionnelle, et la stabilisation d'image est exceptionnelle. Le processeur Kirin 9000E offre des performances de pointe, et la connectivité 5G assure une vitesse de navigation rapide. Le Huawei P50 Pro est un choix solide pour les amateurs de photographie et de vidéographie.",
+      "thumbnail": "products/smartphone/huawei-p50-pro.png",
+      "category": 1,
+      "promotion": null,
+      "color": [1, 2]
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 5,
+    "fields": {
+      "public_id": "a193d47854de44f8aaa056c0c29e7b51475ab79514dd4cdf8c2f6cdaee3eef9e",
+      "created_at": "2023-09-03T19:55:54.665Z",
+      "updated_at": "2023-09-03T19:55:54.665Z",
+      "name": "Xiaomi Mi 13",
+      "name_en": "Xiaomi Mi 13",
+      "name_fr": "Xiaomi Mi 13",
+      "slug": "xiaomi-mi-13",
+      "stock": 150,
+      "price": "519.00",
+      "description": "The Xiaomi Mi 13 is an impressive smartphone at an affordable price point. Its 6.28-inch OLED display offers vivid colors and sharpness. Equipped with the Snapdragon 8 Gen 2 processor, it delivers outstanding performance for all your tasks. The 50-megapixel primary camera captures detailed photos, and 5G connectivity ensures fast internet browsing. With its stylish design and quality construction, the Xiaomi Mi 13 offers excellent value for money.",
+      "description_en": "The Xiaomi Mi 13 is an impressive smartphone at an affordable price point. Its 6.28-inch OLED display offers vivid colors and sharpness. Equipped with the Snapdragon 8 Gen 2 processor, it delivers outstanding performance for all your tasks. The 50-megapixel primary camera captures detailed photos, and 5G connectivity ensures fast internet browsing. With its stylish design and quality construction, the Xiaomi Mi 13 offers excellent value for money.",
+      "description_fr": "Le Xiaomi Mi 12 est un smartphone impressionnant à un prix abordable. Son écran OLED de 6,28 pouces offre des couleurs vives et une grande netteté. Équipé du processeur Snapdragon 8 Gen 2, il offre des performances exceptionnelles pour toutes vos tâches. La caméra principale de 50 mégapixels capture des photos détaillées, tandis que la connectivité 5G assure une navigation rapide sur Internet. Avec son design élégant et sa construction de qualité, le Xiaomi Mi 12 offre un excellent rapport qualité-prix.",
+      "thumbnail": "products/smartphone/xiaomi-mi-13.png",
+      "category": 1,
+      "promotion": null,
+      "color": [1, 2]
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 6,
+    "fields": {
+      "public_id": "57b91ad98cab4a2fa37311ffc20894d2c7b69c432b4c4e3cbbdc53487d2f1780",
+      "created_at": "2023-09-05T19:15:49.691Z",
+      "updated_at": "2023-09-05T19:15:49.691Z",
+      "name": "OnePlus 10 Pro",
+      "name_en": "OnePlus 10 Pro",
+      "name_fr": "OnePlus 10 Pro",
+      "slug": "oneplus-10-pro",
+      "stock": 150,
+      "price": "529.00",
+      "description": "The OnePlus 10 Pro blends style and performance. Its 6.7-inch Fluid AMOLED display offers vibrant colors and fluidity thanks to its high refresh rate. Powered by a Snapdragon 8 Gen 2 processor, it delivers outstanding performance, and its ultra-fast charging capability ensures quick battery top-ups. The Hasselblad camera captures sharp and detailed photos, while OxygenOS provides a pure and customizable Android experience.",
+      "description_en": "The OnePlus 10 Pro blends style and performance. Its 6.7-inch Fluid AMOLED display offers vibrant colors and fluidity thanks to its high refresh rate. Powered by a Snapdragon 8 Gen 2 processor, it delivers outstanding performance, and its ultra-fast charging capability ensures quick battery top-ups. The Hasselblad camera captures sharp and detailed photos, while OxygenOS provides a pure and customizable Android experience.",
+      "description_fr": "Le OnePlus 10 Pro est synonyme de style et de performance. Son écran Fluid AMOLED de 6,7 pouces offre des couleurs éclatantes et une fluidité incroyable grâce à son taux de rafra¯chissement élevé. Il est alimenté par un processeur Snapdragon 8 Gen 2, garantissant des performances de pointe, et sa charge ultra-rapide vous permet de recharger rapidement la batterie. La caméra Hasselblad capture des photos nettes et détaillées, tandis que l'interface OxygenOS offre une expérience Android pure et personnalisable.",
+      "thumbnail": "products/smartphone/oneplus-10-pro.png",
+      "category": 1,
+      "promotion": null,
+      "color": [1, 2]
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 7,
+    "fields": {
+      "public_id": "38a208cdcafc445393296d339c54cd571ac6790e82da4dfe8648af41ed6924a8",
+      "created_at": "2023-09-05T19:21:47.822Z",
+      "updated_at": "2023-09-05T19:21:47.822Z",
+      "name": "Sony Xperia 5 III",
+      "name_en": "Sony Xperia 5 III",
+      "name_fr": "Sony Xperia 5 III",
+      "slug": "sony-xperia-5-iii",
+      "stock": 150,
+      "price": "749.00",
+      "description": "The Sony Xperia 5 III is a compact yet powerful smartphone. Its 6.1-inch OLED display is perfect for content viewing, and its high refresh rate makes it ideal for gaming. The 12-megapixel ZEISS camera captures professional-grade photos and videos, while the Snapdragon 888 processor ensures fast performance. Gaming enthusiasts will love the immersive gaming feature, and the long-lasting battery keeps you productive all day.",
+      "description_en": "The Sony Xperia 5 III is a compact yet powerful smartphone. Its 6.1-inch OLED display is perfect for content viewing, and its high refresh rate makes it ideal for gaming. The 12-megapixel ZEISS camera captures professional-grade photos and videos, while the Snapdragon 888 processor ensures fast performance. Gaming enthusiasts will love the immersive gaming feature, and the long-lasting battery keeps you productive all day.",
+      "description_fr": "Le Sony Xperia 5 III est un smartphone compact avec des performances de haut niveau. Son écran OLED de 6,1 pouces est parfait pour la visualisation de contenu, et son taux de rafra¯chissement élevé le rend idéal pour les jeux. La caméra ZEISS de 12 mégapixels capture des photos et des vidéos de qualité professionnelle, tandis que le processeur Snapdragon 888 garantit des performances rapides. Les amateurs de jeux adoreront la fonction de jeu immersif, tandis que la batterie longue durée vous permettra de rester productif toute la journée.",
+      "thumbnail": "products/smartphone/sony-xperia-5-iii.png",
+      "category": 1,
+      "promotion": null,
+      "color": [1, 2]
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 8,
+    "fields": {
+      "public_id": "16f551031d7143c38a49c4e0c29955b9a093c93067e247eab778d2982d63e0f4",
+      "created_at": "2023-09-05T19:25:33.388Z",
+      "updated_at": "2023-09-05T19:25:33.388Z",
+      "name": "Oppo Find X5 Pro",
+      "name_en": "Oppo Find X5 Pro",
+      "name_fr": "Oppo Find X5 Pro",
+      "slug": "oppo-find-x5-pro",
+      "stock": 150,
+      "price": "679.99",
+      "description": "The Oppo Find X5 Pro is a stylish smartphone with a curved 6.7-inch OLED display. Its Hasselblad triple-camera system offers exceptional image quality, and the image stabilization ensures smooth videos. The Snapdragon 8 Gen 2 processor guarantees fast performance, and ultra-fast charging allows for quick battery replenishment. Its elegant design and immersive display make it an attractive choice for discerning users.",
+      "description_en": "The Oppo Find X5 Pro is a stylish smartphone with a curved 6.7-inch OLED display. Its Hasselblad triple-camera system offers exceptional image quality, and the image stabilization ensures smooth videos. The Snapdragon 8 Gen 2 processor guarantees fast performance, and ultra-fast charging allows for quick battery replenishment. Its elegant design and immersive display make it an attractive choice for discerning users.",
+      "description_fr": "L'Oppo Find X5 Pro est un smartphone élégant avec un écran OLED incurvé de 6,7 pouces. Son système de triple caméra Hasselblad offre une qualité d'image exceptionnelle, et la stabilisation d'image assure des vidéos fluides. Le processeur Snapdragon 8 Gen 2 garantit des performances rapides, tandis que la charge ultra-rapide vous permet de recharger rapidement la batterie. Son design élégant et son écran immersif en font un choix attrayant pour les utilisateurs exigeants.",
+      "thumbnail": "products/smartphone/oppo-find-x5-pro.png",
+      "category": 1,
+      "promotion": null,
+      "color": [1, 2]
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 9,
+    "fields": {
+      "public_id": "a764e14731854f4999d0d4d7a6dc7642eb94a4707a0341bf9c541c0ee671f8a6",
+      "created_at": "2023-09-05T19:31:17.038Z",
+      "updated_at": "2023-09-05T19:31:17.038Z",
+      "name": "Realme GT Master Edition",
+      "name_en": "Realme GT Master Edition",
+      "name_fr": "Realme GT Master Edition",
+      "slug": "realme-gt-master-edition",
+      "stock": 150,
+      "price": "644.00",
+      "description": "The Realme GT Master Edition is an affordable smartphone with a distinctive design. Its 6.43-inch AMOLED display offers vibrant colors, while the Snapdragon 778G processor provides solid performance for multitasking and gaming. The 64-megapixel primary camera captures sharp and detailed photos, and the 4,300 mAh battery offers good endurance. If you're looking for an affordable smartphone with style, the Realme GT Master Edition is an excellent choice.",
+      "description_en": "The Realme GT Master Edition is an affordable smartphone with a distinctive design. Its 6.43-inch AMOLED display offers vibrant colors, while the Snapdragon 778G processor provides solid performance for multitasking and gaming. The 64-megapixel primary camera captures sharp and detailed photos, and the 4,300 mAh battery offers good endurance. If you're looking for an affordable smartphone with style, the Realme GT Master Edition is an excellent choice.",
+      "description_fr": "Le Realme GT Master Edition est un smartphone abordable avec un design distinctif. Son écran AMOLED de 6,43 pouces offre des couleurs vibrantes, tandis que le processeur Snapdragon 778G offre des performances solides pour le multitâche et les jeux. La caméra principale de 64 mégapixels capture des photos nettes et détaillées, tandis que la batterie de 4 300 mAh offre une bonne autonomie. Si vous recherchez un smartphone abordable avec style, le Realme GT Master Edition est un excellent choix.",
+      "thumbnail": "products/smartphone/realme-gt-master-edition.png",
+      "category": 1,
+      "promotion": null,
+      "color": [1, 2]
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 10,
+    "fields": {
+      "public_id": "30d136f3a6f44037924ec7d4c756722f3e2c9c1d1c7c4afd962314628e2c8ed7",
+      "created_at": "2023-09-05T19:40:28.606Z",
+      "updated_at": "2023-09-05T19:40:28.606Z",
+      "name": "Apple iPhone 11, 64GB",
+      "name_en": "Apple iPhone 11, 64GB",
+      "name_fr": "Apple iPhone 11, 64Go",
+      "slug": "apple-iphone-11-64gb",
+      "stock": 150,
+      "price": "999.00",
+      "description": "The iPhone 11 is a previous-generation model from Apple, known for its exceptional value and performance. It features a 6.1-inch Liquid Retina display that delivers vibrant colors and sharpness. Equipped with the A13 Bionic chip, it provides smooth and fast performance for all your tasks and apps. The dual-camera system captures stunning photos and videos, including impressive low-light shots. With its long-lasting battery life and iOS support, the iPhone 11 remains a popular choice for those seeking a high-quality smartphone at a more budget-friendly price point.",
+      "description_en": "The iPhone 11 is a previous-generation model from Apple, known for its exceptional value and performance. It features a 6.1-inch Liquid Retina display that delivers vibrant colors and sharpness. Equipped with the A13 Bionic chip, it provides smooth and fast performance for all your tasks and apps. The dual-camera system captures stunning photos and videos, including impressive low-light shots. With its long-lasting battery life and iOS support, the iPhone 11 remains a popular choice for those seeking a high-quality smartphone at a more budget-friendly price point.",
+      "description_fr": "L'iPhone 11 est un modèle de génération précédente d'Apple, reconnu pour son excellent rapport qualité-prix et ses performances. Il est doté d'un écran Liquid Retina de 6,1 pouces qui offre des couleurs vives et une grande netteté. Équipé de la puce A13 Bionic, il garantit des performances fluides et rapides pour toutes vos tâches et applications. Son système à double caméra capture des photos et des vidéos impressionnantes, y compris d'excellentes prises de vue en basse lumière. Avec sa longue autonomie de batterie et sa prise en charge d'iOS, l'iPhone 11 reste un choix populaire pour ceux qui recherchent un smartphone de haute qualité à un prix plus abordable.",
+      "thumbnail": "products/smartphone/apple-iphone-11-64gb.png",
+      "category": 1,
+      "promotion": null,
+      "color": [1, 2, 3]
+    }
+  },
+  {
+    "model": "products.productimage",
+    "pk": 1,
+    "fields": {
+      "public_id": "7b5125d6c5354ba3a0c70e9b8b07b612c478b50cabec4885b74dd8adcd591f8e",
+      "created_at": "2023-09-03T19:05:39.866Z",
+      "updated_at": "2023-09-03T19:05:39.866Z",
+      "product": 1,
+      "image": "products/smartphone/apple-iphone-14-pro-max-128-gb.png"
+    }
+  },
+  {
+    "model": "products.productimage",
+    "pk": 2,
+    "fields": {
+      "public_id": "3ed231f3cbba43b3b9b555730b30f6e5d4dcdee41cbb4419b2aa041d15fd4d5f",
+      "created_at": "2023-09-03T19:31:50.574Z",
+      "updated_at": "2023-09-03T19:31:50.574Z",
+      "product": 2,
+      "image": "products/smartphone/samsung-galaxy-s22-ultra.png"
+    }
+  },
+  {
+    "model": "products.productimage",
+    "pk": 3,
+    "fields": {
+      "public_id": "4c2ee2574d31415eb39556b3ffe14639cc877cedb62c4167ad95ba09d8a3e34f",
+      "created_at": "2023-09-03T19:38:20.414Z",
+      "updated_at": "2023-09-03T19:38:20.414Z",
+      "product": 3,
+      "image": "products/smartphone/google-pixel-7-pro.png"
+    }
+  },
+  {
+    "model": "products.productimage",
+    "pk": 4,
+    "fields": {
+      "public_id": "ce2cdfb8e37240ec8f4153ec740f3132d76a32dc6ce64045b9b35a3ed7b081b9",
+      "created_at": "2023-09-03T19:41:22.078Z",
+      "updated_at": "2023-09-03T19:41:22.078Z",
+      "product": 4,
+      "image": "products/smartphone/huawei-p50-pro.png"
+    }
+  },
+  {
+    "model": "products.productimage",
+    "pk": 5,
+    "fields": {
+      "public_id": "1a2756770a7b4e2dbe8a3e5702bee5fde689827a006b4e6183170f04f27d9262",
+      "created_at": "2023-09-03T19:55:54.686Z",
+      "updated_at": "2023-09-03T19:55:54.686Z",
+      "product": 5,
+      "image": "products/smartphone/xiaomi-mi-13.png"
+    }
+  },
+  {
+    "model": "products.productimage",
+    "pk": 6,
+    "fields": {
+      "public_id": "30f2e9c87e584e8e84fdba382df5d621c59aeee2c20d4272870948a273e7897a",
+      "created_at": "2023-09-05T19:15:49.719Z",
+      "updated_at": "2023-09-05T19:15:49.719Z",
+      "product": 6,
+      "image": "products/smartphone/oneplus-10-pro.png"
+    }
+  },
+  {
+    "model": "products.productimage",
+    "pk": 7,
+    "fields": {
+      "public_id": "dbde7b343e6c40a2bffb180f791a2e5814bdb1d3660240ff9795ce2bfd862302",
+      "created_at": "2023-09-05T19:21:48.202Z",
+      "updated_at": "2023-09-05T19:21:48.202Z",
+      "product": 7,
+      "image": "products/smartphone/sony-xperia-5-iii.png"
+    }
+  },
+  {
+    "model": "products.productimage",
+    "pk": 8,
+    "fields": {
+      "public_id": "0ef6409fcca54263bdbbf1c1f1b0310a7b6d9516fa9a4c2388d09148deff70e7",
+      "created_at": "2023-09-05T19:25:33.406Z",
+      "updated_at": "2023-09-05T19:25:33.406Z",
+      "product": 8,
+      "image": "products/smartphone/oppo-find-x5-pro.png"
+    }
+  },
+  {
+    "model": "products.productimage",
+    "pk": 9,
+    "fields": {
+      "public_id": "f292a6e44eea49d9aa2c1b6b2498f2dad9c325d179494e55839ffcf6c09ebae8",
+      "created_at": "2023-09-05T19:31:17.060Z",
+      "updated_at": "2023-09-05T19:31:17.060Z",
+      "product": 9,
+      "image": "products/smartphone/realme-gt-master-edition.png"
+    }
+  },
+  {
+    "model": "products.productimage",
+    "pk": 10,
+    "fields": {
+      "public_id": "ea93a036f24f4976924899b2862fa8965677bab04db3437b9f2c561a3deb2e2d",
+      "created_at": "2023-09-05T19:40:28.624Z",
+      "updated_at": "2023-09-05T19:40:28.624Z",
+      "product": 10,
+      "image": "products/smartphone/apple-iphone-11-64gb.png"
+    }
+  }
+]
